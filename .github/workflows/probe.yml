@@ -5,6 +5,6 @@ jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
     snapshot:
-      enabled: "x"
+      name: "x"
     steps:
       - run: echo ok
