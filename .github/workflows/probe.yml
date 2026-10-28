@@ -2,7 +2,7 @@ name: probe
 on:
   workflow_dispatch:
 jobs:
-  some-other-job:
+  build:
     runs-on: ubuntu-latest
     snapshot: true
     steps:
