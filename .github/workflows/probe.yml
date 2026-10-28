@@ -4,6 +4,7 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
-    zzbogus-not-a-key: 1
+    snapshot:
+      enabled: "x"
     steps:
       - run: echo ok
