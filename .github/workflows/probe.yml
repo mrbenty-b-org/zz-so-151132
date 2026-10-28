@@ -5,6 +5,6 @@ jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
     snapshot:
-      expires: "x"
+      ttl: "x"
     steps:
       - run: echo ok
