@@ -2,7 +2,7 @@ name: probe
 on:
   workflow_dispatch:
 jobs:
-  copilot-setup-steps:
+  some-other-job:
     runs-on: ubuntu-latest
     snapshot: true
     steps:
