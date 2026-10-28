@@ -5,6 +5,6 @@ jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
     snapshot:
-      scope: "x"
+      visibility: "x"
     steps:
       - run: echo ok
